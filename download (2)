@@ -1,0 +1,15 @@
+public class Usuario {
+
+    String nombre;
+    String documento;
+
+    public Usuario(String nombre, String documento) {
+        this.nombre = nombre;
+        this.documento = documento;
+    }
+
+    public void mostrarUsuario() {
+        System.out.println("Usuario: " + nombre);
+        System.out.println("Documento: " + documento);
+    }
+}

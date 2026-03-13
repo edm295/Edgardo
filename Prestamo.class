@@ -1,0 +1,18 @@
+public class Main {
+
+    public static void main(String[] args) {
+
+        // crear libro
+        Libro libro1 = new Libro("Cien años de soledad", "Gabriel Garcia Marquez", 1967);
+
+        // crear usuario
+        Usuario usuario1 = new Usuario("Edgardo Montoya", "1045231676");
+
+        // crear prestamo
+        Prestamo prestamo1 = new Prestamo(libro1, usuario1);
+
+        // mostrar datos
+        prestamo1.mostrarPrestamo();
+
+    }
+}

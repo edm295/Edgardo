@@ -1,0 +1,19 @@
+// relaciona un usuario con un libro prestado
+public class Prestamo {
+
+    Libro libro;
+    Usuario usuario;
+
+    public Prestamo(Libro libro, Usuario usuario) {
+        this.libro = libro;
+        this.usuario = usuario;
+    }
+
+    public void mostrarPrestamo() {
+
+        System.out.println("---- Prestamo ----");
+
+        usuario.mostrarUsuario();
+        libro.mostrarLibro();
+    }
+}
