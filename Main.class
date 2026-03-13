@@ -1,20 +1,18 @@
-// clase que representa un libro en la biblioteca
-public class Libro {
+public class Main {
 
-    String titulo;
-    String autor;
-    int anio;
+    public static void main(String[] args) {
 
-    // constructor
-    public Libro(String titulo, String autor, int anio) {
-        this.titulo = titulo;
-        this.autor = autor;
-        this.anio = anio;
-    }
+        // crear libro
+        Libro libro1 = new Libro("Cien años de soledad", "Gabriel Garcia Marquez", 1967);
 
-    public void mostrarLibro() {
-        System.out.println("Titulo: " + titulo);
-        System.out.println("Autor: " + autor);
-        System.out.println("Año: " + anio);
+        // crear usuario
+        Usuario usuario1 = new Usuario("Edgardo Montoya", "1045231676");
+
+        // crear prestamo
+        Prestamo prestamo1 = new Prestamo(libro1, usuario1);
+
+        // mostrar datos
+        prestamo1.mostrarPrestamo();
+
     }
 }

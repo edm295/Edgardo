@@ -1,18 +1,19 @@
-public class Main {
+// relaciona un usuario con un libro prestado
+public class Prestamo {
 
-    public static void main(String[] args) {
+    Libro libro;
+    Usuario usuario;
 
-        // crear libro
-        Libro libro1 = new Libro("Cien años de soledad", "Gabriel Garcia Marquez", 1967);
+    public Prestamo(Libro libro, Usuario usuario) {
+        this.libro = libro;
+        this.usuario = usuario;
+    }
 
-        // crear usuario
-        Usuario usuario1 = new Usuario("Edgardo Montoya", "1045231676");
+    public void mostrarPrestamo() {
 
-        // crear prestamo
-        Prestamo prestamo1 = new Prestamo(libro1, usuario1);
+        System.out.println("---- Prestamo ----");
 
-        // mostrar datos
-        prestamo1.mostrarPrestamo();
-
+        usuario.mostrarUsuario();
+        libro.mostrarLibro();
     }
 }

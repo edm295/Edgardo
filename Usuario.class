@@ -1,19 +1,15 @@
-// relaciona un usuario con un libro prestado
-public class Prestamo {
+public class Usuario {
 
-    Libro libro;
-    Usuario usuario;
+    String nombre;
+    String documento;
 
-    public Prestamo(Libro libro, Usuario usuario) {
-        this.libro = libro;
-        this.usuario = usuario;
+    public Usuario(String nombre, String documento) {
+        this.nombre = nombre;
+        this.documento = documento;
     }
 
-    public void mostrarPrestamo() {
-
-        System.out.println("---- Prestamo ----");
-
-        usuario.mostrarUsuario();
-        libro.mostrarLibro();
+    public void mostrarUsuario() {
+        System.out.println("Usuario: " + nombre);
+        System.out.println("Documento: " + documento);
     }
 }

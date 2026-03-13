@@ -1,0 +1,20 @@
+// clase que representa un libro en la biblioteca
+public class Libro {
+
+    String titulo;
+    String autor;
+    int anio;
+
+    // constructor
+    public Libro(String titulo, String autor, int anio) {
+        this.titulo = titulo;
+        this.autor = autor;
+        this.anio = anio;
+    }
+
+    public void mostrarLibro() {
+        System.out.println("Titulo: " + titulo);
+        System.out.println("Autor: " + autor);
+        System.out.println("Año: " + anio);
+    }
+}
