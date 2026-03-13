@@ -4,23 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="152f39c9-71af-44a2-8923-a50419144980" name="Changes" comment="" />
+    <list default="true" id="145f86b2-cc29-4ce7-8c4f-33a01c4b12e4" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Class" />
-      </list>
-    </option>
-  </component>
   <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 4
+  "associatedIndex": 5
 }]]></component>
-  <component name="ProjectId" id="3AsIPvsmqkOVCn9yVqClDqV7nzl" />
+  <component name="ProjectId" id="3AsJt43t1rAgqBZ480sfYEKivlB" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -38,7 +31,7 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "onboarding.tips.debug.path": "C:/Users/natur/OneDrive/Desktop/workplace/biblioteca/Biblioteca/src/Main.java",
+    "onboarding.tips.debug.path": "C:/Users/natur/OneDrive/Desktop/workplace/diseño de sistemas/Edgardo Montoya Taller/src/Main.java",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -52,12 +45,12 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="152f39c9-71af-44a2-8923-a50419144980" name="Changes" comment="" />
-      <created>1773374830407</created>
+      <changelist id="145f86b2-cc29-4ce7-8c4f-33a01c4b12e4" name="Changes" comment="" />
+      <created>1773375555945</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1773374830407</updated>
-      <workItem from="1773374831436" duration="707000" />
+      <updated>1773375555945</updated>
+      <workItem from="1773375557007" duration="1518000" />
     </task>
     <servers />
   </component>
